@@ -1,12 +1,12 @@
 //Дан массив с числами. С помощью цикла найдите сумму элементов этого массива.
 const count = () => {
     let i = 10
-    let massive = 0
+    let array = 0
     while (i >= 0) {
-        massive = massive + i
+        array = array + i
         i--
     }
-    console.log(massive)
+    console.log(array)
     return i
 }
 count()

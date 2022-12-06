@@ -1,14 +1,15 @@
 //Дан массив с числами. С помощью цикла выведите только те элементы массива, которые больше нуля и меньше 10-ти.
 const count = () => {
-    let i = 100
-    let massive = ''
-    while (i > 0) {
-        i--
-        if (i <= 10) {
-            massive = `${i} ${massive}`
+    let i = [-2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    let y = 0
+    let array = []
+    while (y <= 100) {
+        ++y
+        if (i[y] <= 10 && i[y] >= 0) {
+            array.push(i[y])
         }
     }
-    console.log(massive)
-    return i
+    console.log(array)
+    return y
   }
   count()

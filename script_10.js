@@ -2,12 +2,12 @@
 const count = () => {
     let i = 10
     let a = i
-    let massive = 0
+    let array = 0
     while (i >= 0) {
-        massive = massive + i / a
+        array = array + i / a
         i--
     }
-    console.log(massive)
+    console.log(array)
     return i
 }
 count()
